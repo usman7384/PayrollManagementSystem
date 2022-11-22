@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.manageLeaveController">
+   <children>
+      <Text fill="WHITE" layoutX="162.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MANAGE LEAVE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="viewLeaveApplication" layoutX="230.0" layoutY="169.0" mnemonicParsing="false" onAction="#gotoViewLeaveApplication" styleClass="dark-blue" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="View Leave Application" />
+            <Button fx:id="back" layoutX="25.0" layoutY="53.0" mnemonicParsing="false" onAction="#goBack" styleClass="shiny-orange" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Back" />
+      
+   </children>
+</AnchorPane>

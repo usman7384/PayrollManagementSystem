@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeMenuController">
+   <children>
+      <Text fill="WHITE" layoutX="180.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMPLOYEE MENU">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="MarkAttendance" layoutX="215.0" layoutY="130.0" mnemonicParsing="false" onAction="#gotoMarkAttendance" prefHeight="37.0" prefWidth="159.0" styleClass="dark-blue" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Mark Attendance" />
+      <Button fx:id="ApplyForLoan" layoutX="215.0" layoutY="180.0" mnemonicParsing="false" onAction="#gotoApplyForLoan" prefHeight="37.0" prefWidth="159.0" styleClass="dark-blue" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Apply For Loan" />
+      <Button fx:id="ViewLeaveReport" layoutX="215.0" layoutY="280.0" mnemonicParsing="false" onAction="#gotoViewLeaveReport" prefHeight="37.0" prefWidth="159.0" styleClass="dark-blue" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Employee Report" />
+      <Button fx:id="ApplyForLeave" layoutX="215.0" layoutY="230.0" mnemonicParsing="false" onAction="#gotoApplyForLeave" prefHeight="37.0" prefWidth="159.0" styleClass="dark-blue" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Apply For Leave" />
+            <Button fx:id="back" layoutX="26.0" layoutY="47.0" mnemonicParsing="false" onAction="#goBack" styleClass="shiny-orange" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Back" />
+      
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SalaryController">
+   <children>
+      <Text fill="WHITE" layoutX="297.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee ID">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="24.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Text>
+      <TextField fx:id="AccountNumber" layoutX="130.0" layoutY="306.0" prefHeight="26.0" prefWidth="152.0" />
+      <Text fill="WHITE" layoutX="93.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEND SALARY TO EMPLOYEE BANK ACCOUNT" textAlignment="CENTER" wrappingWidth="436.426513671875">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="EmployeeID" layoutX="379.0" layoutY="306.0" prefHeight="25.0" prefWidth="179.0" />
+      <Button fx:id="Send" alignment="TOP_CENTER" layoutX="30.0" layoutY="344.0" mnemonicParsing="false" onAction="#Transact" prefHeight="26.0" prefWidth="530.0" styleClass="dark-blue" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Send Salary" />
+            <Button fx:id="back" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#goBack" styleClass="shiny-orange" stylesheets="file:/C:/Users/mu393/eclipse-workspace/PayrollManagementSystem/src/application/application.css" text="Back" />
+      <TableView fx:id="table" layoutX="28.0" layoutY="61.0" prefHeight="230.0" prefWidth="530.0" />
+      
+   </children>
+</AnchorPane>
